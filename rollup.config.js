@@ -1,6 +1,8 @@
 export default {
-    entry: 'main.js',
-    dest: 'bundle.js',
+  input: 'main.js',
+  output: [{
+    file: 'bundle.js',
     format: 'cjs',
-    external: ['lodash']
+  }],
+  external: ['lodash']
 }
