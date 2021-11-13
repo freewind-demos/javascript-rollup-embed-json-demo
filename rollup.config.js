@@ -1,8 +1,11 @@
+import json from '@rollup/plugin-json';
+
 export default {
-  input: 'main.js',
+  input: './src/main.js',
   output: [{
-    file: 'bundle.js',
+    file: './dist/bundle.js',
     format: 'cjs',
   }],
+  plugins: [json()],
   external: ['lodash']
 }
