@@ -1,12 +1,12 @@
 {
-    "scripts": {
-        "start": "rollup -c"
-    },
-    "dependencies": {
-        "lodash": "4.17.11"
-    },
-    "devDependencies": {
-        "@rollup/plugin-json": "4.1.0",
-        "rollup": "1.7.0"
-    }
+  "scripts": {
+    "start": "rollup -c"
+  },
+  "dependencies": {
+    "lodash": "4.17.11"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "4.1.0",
+    "rollup": "1.7.0"
+  }
 }
